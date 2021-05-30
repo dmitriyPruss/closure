@@ -30,7 +30,7 @@ function addNum(n = 0) {
             throw new RangeError(`This value isn't correct. Enter another...`);
         };
         
-        num += n;
+        num = n;
 
         return num + m;
     };
